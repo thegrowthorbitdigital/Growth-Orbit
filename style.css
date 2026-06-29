@@ -1,3 +1,54 @@
+/* ==========================
+   Mobile Responsive Design
+========================== */
+
+@media (max-width: 768px){
+
+    nav{
+        flex-direction: column;
+        padding:20px;
+    }
+
+    .logo{
+        font-size:30px;
+        margin-bottom:20px;
+        text-align:center;
+    }
+
+    nav ul{
+        display:flex;
+        flex-wrap:wrap;
+        justify-content:center;
+        gap:15px;
+    }
+
+    .hero{
+        padding:120px 20px 80px;
+        text-align:center;
+    }
+
+    .hero h1{
+        font-size:48px;
+        line-height:1.2;
+    }
+
+    .hero p{
+        font-size:20px;
+        line-height:1.6;
+    }
+
+    .buttons{
+        display:flex;
+        flex-direction:column;
+        gap:15px;
+        align-items:center;
+    }
+
+    .btn{
+        width:220px;
+    }
+
+}
 .footer{
 background:#050b14;
 padding:80px 10% 30px;
