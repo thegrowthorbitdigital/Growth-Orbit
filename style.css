@@ -1,3 +1,36 @@
+.menu-toggle{
+    display:none;
+    font-size:32px;
+    color:#fff;
+    cursor:pointer;
+}
+
+@media (max-width:768px){
+
+.menu-toggle{
+    display:block;
+    text-align:right;
+    margin-right:20px;
+}
+
+nav ul{
+    display:none;
+    flex-direction:column;
+    width:100%;
+    text-align:center;
+    background:#111;
+    padding:20px 0;
+}
+
+nav ul.active{
+    display:flex;
+}
+
+nav ul li{
+    margin:15px 0;
+}
+
+}
 /* ==========================
    Mobile Responsive Design
 ========================== */
